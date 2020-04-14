@@ -1,7 +1,10 @@
 class PagesController < ApplicationController
 
-  def about
+  def articles
 
   end
 
+  def create_article
+    Article.new()
+  end
 end
